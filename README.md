@@ -1,1 +1,1 @@
-# Cosc370ProjectSite
+# Phasmophobia Web App
