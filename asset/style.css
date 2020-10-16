@@ -1,0 +1,28 @@
+
+
+.webappframe
+{
+	position: relative;
+	margin-bottom: 5px;
+	min-height: 32px;
+	height: 900px;
+	width: 75%;
+
+	background: #1f1f1f;
+	background: rgba(21,21,21,.36);
+	border: 1px solid #35465e;
+	border-radius: 5px;
+}
+
+.topbarimage
+{
+	padding-top: 25px;
+	position: relative;
+	height: 25%;
+	width: 90%;
+}
+
+.evidence
+{
+	position: relative;
+}
