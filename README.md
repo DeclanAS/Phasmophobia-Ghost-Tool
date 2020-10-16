@@ -10,3 +10,6 @@ If you are certain one of the pieces of evidence is nowhere to be found in the b
 
 ### Click Submit:
 All possible ghost types will appear below.
+
+### Ending note:
+I found out too little too late that Github pages only supports static websites, so this php file does not show on the site itself. But the websites source code is here for viewing nonetheless.
