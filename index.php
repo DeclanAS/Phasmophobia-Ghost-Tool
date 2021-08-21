@@ -106,7 +106,9 @@
                             array("Shade", 0, 3, 4),
                             array("Spirit", 1, 4, 5),
                             array("Wraith", 1, 2, 5),
-                            array("Yurei", 2, 3, 4)
+                            array("Yurei", 2, 3, 4),
+							array("Yokai", 3, 4, 5), // Added 8/20/21, Introduced 6/20/21
+							array("Hantu", 1, 3, 4)
                         );
                         $Options = array(
                             array("EMF Level 5", 0),
