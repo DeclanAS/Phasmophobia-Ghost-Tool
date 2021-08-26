@@ -10,7 +10,7 @@
        <link rel="stylesheet" href="asset/style.css">
     </head>
     <body>
-        <center>
+        <center> <!-- center is Depreciated -->
             <h1>Phasmophobia Ghost Determining Tool<h2>
             <h2>By Declan Sheehan<h2>
 
@@ -28,6 +28,7 @@
                         <option value="3">Ghost Orbs</option>
                         <option value="4">Ghost Writing</option>
                         <option value="5">Spirit Box</option>
+                        <option value="6">DOTS Projector</option>
                     </select><br>
 
                     <label>Evidence # 2:</label>
@@ -39,6 +40,7 @@
                         <option value="3">Ghost Orbs</option>
                         <option value="4">Ghost Writing</option>
                         <option value="5">Spirit Box</option>
+                        <option value="6">DOTS Projector</option>
                     </select><br>
                 
                     <label>Evidence # 3:</label>
@@ -50,6 +52,7 @@
                         <option value="3">Ghost Orbs</option>
                         <option value="4">Ghost Writing</option>
                         <option value="5">Spirit Box</option>
+                        <option value="6">DOTS Projector</option>
                     </select><br><br>
 
                     <label>Evidence NOT Found # 1:</label>
@@ -61,6 +64,7 @@
                         <option value="3">Ghost Orbs</option>
                         <option value="4">Ghost Writing</option>
                         <option value="5">Spirit Box</option>
+                        <option value="6">DOTS Projector</option>
                     </select><br>
 
                     <label>Evidence NOT Found # 2:</label>
@@ -72,6 +76,7 @@
                         <option value="3">Ghost Orbs</option>
                         <option value="4">Ghost Writing</option>
                         <option value="5">Spirit Box</option>
+                        <option value="6">DOTS Projector</option>
                     </select><br>
 
                     <label>Evidence NOT Found # 3:</label>
@@ -83,6 +88,7 @@
                         <option value="3">Ghost Orbs</option>
                         <option value="4">Ghost Writing</option>
                         <option value="5">Spirit Box</option>
+                        <option value="6">DOTS Projector</option>
                     </select><br>
 
                     <input type="submit" name="button" value="Submit">
@@ -95,20 +101,22 @@
                         $unselected = array();
                         $Results = array();
                         $Ghosts = array(
-                            array("Banshee", 0, 1, 2),
-                            array("Demon", 2, 4, 5),
-                            array("Jinn", 0, 3, 5),
-                            array("Mare", 2, 3, 5),
-                            array("Oni", 0, 4, 5),
-                            array("Phantom", 0, 2, 3),
-                            array("Poltergiest", 1, 3, 5),
-                            array("Revenant", 0, 1, 4),
-                            array("Shade", 0, 3, 4),
-                            array("Spirit", 1, 4, 5),
-                            array("Wraith", 1, 2, 5),
-                            array("Yurei", 2, 3, 4),
-							array("Yokai", 3, 4, 5), // Added 8/20/21, Introduced 6/20/21
-							array("Hantu", 1, 3, 4)
+                            array("Banshee", 1, 3, 6),
+                            array("Demon", 1, 2, 4),
+                            array("Goryo", 0, 1, 6), // Added 8/26/21, Introduced 6/20/21
+                            array("Hantu", 1, 2, 3), // Added 8/20/21, Introduced 6/20/21
+                            array("Jinn", 0, 1, 2),
+                            array("Mare", 3, 4, 5),
+                            array("Myling", 0, 1, 4), // Added 8/26/21, Introduced 6/20/21
+                            array("Oni", 0, 2, 6),
+                            array("Phantom", 1, 5, 6),
+                            array("Poltergiest", 1, 4, 5),
+                            array("Revenant", 2, 3, 4),
+                            array("Shade", 0, 2, 4),
+                            array("Spirit", 0, 4, 5),
+                            array("Wraith", 0, 5, 6),
+                            array("Yokai", 3, 5, 6), // Added 8/20/21, Introduced 6/20/21
+                            array("Yurei", 2, 3, 6)
                         );
                         $Options = array(
                             array("EMF Level 5", 0),
@@ -116,7 +124,8 @@
                             array("Freezing Temperatures", 2),
                             array("Ghost Orbs", 3),
                             array("Ghost Writing", 4),
-                            array("Spirit Box", 5)
+                            array("Spirit Box", 5),
+                            array("DOTS Projector", 6)
                         );
                         $Searchedfor = array();
                         $Include_non_opt = false;
