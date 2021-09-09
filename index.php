@@ -229,8 +229,22 @@
                             if (empty($Results)) {
                                 print_r("No Match.");
                             } else {
+                                print_r("<table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Ghost</th>
+                                                    <th>Evidence 1</th>
+                                                    <th>Evidence 2</th>
+                                                    <th>Evidence 3</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>");
                                 foreach ($Results as $type)
-                                    print_r($type[0] . "<br>");
+                                    print_r("<tr><th>" . $type[0] . "</th><td>" . 
+                                            $Options[$type[1]][0] . "</td><td>" . 
+                                            $Options[$type[2]][0] . "</td><td>" . 
+                                            $Options[$type[3]][0] . "</td></tr>");
+                                print_r("</tbody></table>");
                             }
 
                         }
